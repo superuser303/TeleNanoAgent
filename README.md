@@ -23,19 +23,13 @@ Perfect for devs into Gen AI and bots; sharpens core ML skills like transformer 
 - **Deployment**: Vercel, Render.com, Google Colab (for training).
 - **Other**: Axios for API calls, Docker for n8n.
 
-## 📸 Demo
-![Bot Demo](demo.gif) <!-- Upload a GIF of bot chat (record in Telegram: prompt → image output) -->
-
-Or try it live: [t.me/TeleNanoAgentBot](https://t.me/your_bot_username) <!-- Add after deploy -->
+try it live: [t.me/TeleNanoAgentBot](https://t.me/your_bot_username) <!-- Add after deploy -->
 
 ## Architecture
 Here's the high-level flow (built with draw.io—export as PNG):
 
 ![Workflow Diagram](architecture.png)
-<!-- 
-Telegram Input → BERT Intent API (HF) → Gemini Nano Gen/Edit → n8n Workflow (Save/Notify) → Bot Reply
--->
-
+<!-- Telegram Input → BERT Intent API (HF) → Gemini Nano Gen/Edit → n8n Workflow (Save/Notify) → Bot Reply-->
 ## 🚀 Quick Start
 ### Prerequisites
 - Node.js 18+ for bot.
@@ -55,3 +49,4 @@ Telegram Input → BERT Intent API (HF) → Gemini Nano Gen/Edit → n8n Workflo
 - `cd bot`
 - `npm install` (installs Telegraf, Axios, dotenv).
 - Create `.env`:
+
