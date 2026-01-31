@@ -55,4 +55,3 @@ Telegram Input → BERT Intent API (HF) → Gemini Nano Gen/Edit → n8n Workflo
 - `cd bot`
 - `npm install` (installs Telegraf, Axios, dotenv).
 - Create `.env`:
-
