@@ -48,4 +48,5 @@ Here's the high-level flow (built with draw.io—export as PNG):
 3. **Bot Setup**:
 - `cd bot`
 - `npm install` (installs Telegraf, Axios, dotenv).
-- Create `.env`
+- Create `.env`.
+
